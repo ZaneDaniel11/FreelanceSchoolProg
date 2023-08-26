@@ -1,0 +1,271 @@
+body{
+    background-color: #504141;
+    position: relative;
+    height: 1500px;
+}
+.header{
+    position: absolute;
+    background-color: #211E1E;
+    left: 0;
+    right: 0;
+    height:80px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul li{
+    display: inline;
+ margin-left: 80px;
+ font-family: 'Inter';
+ color: white;
+  font-weight: bold;
+}
+
+.mainheader{
+    position: relative;
+    height: 1300px;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    position: relative;  
+   
+}
+.grid1{
+    border-radius: 30px;
+border: 5px solid #000;
+background: linear-gradient(226deg, #560303 0%, rgba(98, 0, 143, 0.52) 49.96%, rgba(0, 26, 255, 0.00) 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 200px;
+height: 350px;
+position: absolute;
+top: 0;
+margin-top:150px;
+margin-left: 20px;
+}
+
+.grid2{
+    border-radius: 30px;
+border: 5px solid #000;
+background: linear-gradient(226deg, #560303 0%, rgba(98, 0, 143, 0.52) 49.96%, rgba(0, 26, 255, 0.00) 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 200px;
+height: 350px;
+position: absolute;
+top: 0;
+margin-top:150px;
+right: 0;
+margin-right:20px ;
+}
+
+.grid3{
+    border-radius: 30px;
+border: 5px solid #000;
+background: linear-gradient(226deg, #560303 0%, rgba(98, 0, 143, 0.52) 49.96%, rgba(0, 26, 255, 0.00) 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 200px;
+height: 350px;
+position: absolute;
+top: 0;
+margin-top:480px;
+right: 0;
+margin-right:310px ;
+}
+
+.grid4{
+    border-radius: 30px;
+border: 5px solid #000;
+background: linear-gradient(226deg, #560303 0%, rgba(98, 0, 143, 0.52) 49.96%, rgba(0, 26, 255, 0.00) 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 200px;
+height: 350px;
+position: absolute;
+top: 0;
+margin-top:480px;
+margin-left: 310px;
+left: 0;
+
+}
+
+.grid5{
+    border-radius: 30px;
+border: 5px solid #000;
+background: linear-gradient(226deg, #560303 0%, rgba(98, 0, 143, 0.52) 49.96%, rgba(0, 26, 255, 0.00) 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 200px;
+height: 350px;
+position: absolute;
+top: 0;
+margin-top:300px;
+margin-left:570px;
+left: 0;
+
+}
+
+.cour{
+    position: absolute;
+    top: 0;
+    font-family: 'inter';
+    margin-left: 420px;
+    margin-top: 100px;
+}
+.courStyle{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mission{
+    border-radius: 30px;
+border: 5px solid #000;
+background: linear-gradient(226deg, #560303 0%, rgba(98, 0, 143, 0.52) 49.96%, rgba(0, 26, 255, 0.00) 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 400px;
+height: 230px;
+position: absolute;
+margin-bottom: 150px;
+bottom: 0;
+margin-top:400px;
+
+left: 0;
+
+}
+.vision{
+    border-radius: 30px;
+    border: 5px solid #000;
+    background: linear-gradient(226deg, #560303 0%, rgba(98, 0, 143, 0.52) 49.96%, rgba(0, 26, 255, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 230px;
+    position: absolute;
+    margin-bottom: 150px;
+    bottom: 0;
+    margin-top:400px;
+    
+    right: 0;
+    
+}
+.secondLogoContainer{
+    position: absolute;
+    width: 400px;
+    margin-left: 470px;
+    top: 0;
+    margin-top: 850px;
+}
+.secondLogoContainer img{
+    width: 100%;
+    height: 100%;
+}
+.bot1{
+    
+display: block;
+background: #420F59;
+height: 90px;
+
+}
+.threegrid{
+    border-radius: 30px;
+    border: 5px solid #000;
+    background: linear-gradient(226deg, #560303 0%, rgba(98, 0, 143, 0.52) 49.96%, rgba(0, 26, 255, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 390px;
+    height: 200px;
+}
+.three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 23px;
+    margin-top: 40px;
+}
+.bot-main{
+    height: 100px;
+    display: block;
+background: #420F59;
+left: 0;
+right: 0;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+.photoContainer{
+    width: 100px;
+    height: 100px;
+  
+   align-content: center;
+   margin-left: 45px;
+   margin-top: 20px;
+}
+.photoContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px
+
+}
+.courseName
+{
+  
+}
+.courseNameStyle{
+text-align: center;
+color: white;
+font-weight: bold;
+font-family: 'Inter';
+}
+.discrip p {
+    font-family: 'inter';
+    font-size: 11px;
+    color: white;
+    margin-left: 2;
+}
+.mis p {
+    color: white;
+    font-family: 'Inter';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.miscrip{
+    color: white;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+.bot1 p{
+    color: white;
+    font-family: 'Inter';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.pic1Container{
+    width: 150px;
+    height: 140px;
+}
+.pic1Container img {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+.picp{
+  color: white;
+  font-size: 20px;
+  font-weight:bold;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+.threegrid{
+    display: flex;
+
+}
+.bot-main{
+    text-align: center;
+
+}
+.bot-main p{
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+}
